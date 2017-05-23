@@ -14,4 +14,7 @@ function(input, output) {
             ylab="Value",
             xlab="Cities")
   })
-}
+}  
+ 
+  
+ 

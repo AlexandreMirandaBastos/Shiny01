@@ -6,7 +6,7 @@ library(datasets)
 fluidPage(    
   
   # A title for the Page
-  titlePanel("Swiss Index"),
+  titlePanel("Swiss Indicators"),
   
   # Generate a row with a sidebar
   sidebarLayout(      
@@ -21,8 +21,10 @@ fluidPage(
     
     # Create a mainpanel for the barplot
     mainPanel(
-      plotOutput("swissPlot")  
+      tabsetPanel(type = "tabs", 
+                  tabPanel("Plot", plotOutput("swissPlot")), 
+                  tabPanel("help", includeMarkdown("help.Rmd"))
+              )
     )
-    
-  )
+)
 )

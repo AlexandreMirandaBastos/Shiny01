@@ -1,0 +1,22 @@
+---
+title: "Help"
+author: "Alexandre Bastos"
+date: "22 de maio de 2017"
+output: html_document
+---
+
+
+
+## Help Page - Swiss Quality Indicators
+
+This document was designed to assist you in the use of the tool that shows the Socio-economic and fertility indicators for the Suicide of the year 1888.
+
+### To begin
+
+To start, choose from the menu on the left the indicator you want to view. 
+
+![Menu de Opcoes](Menu de Opcoes.jpg)
+
+The chosen indicator will be displayed in the panel to your right by plotting a histogram.
+
+![Grafico](grafico.jpg)
